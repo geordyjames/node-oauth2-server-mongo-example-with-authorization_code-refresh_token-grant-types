@@ -4,7 +4,7 @@
   "description": "Working oauth2 server with MongoDB with authorization_code and refresh_token grant types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pedroetb/node-oauth2-server-mongo-example"
+    "url": "https://github.com/geordyjames/node-oauth2-server-mongo-example-with-authorization_code-refresh_token-grant-types"
   },
   "main": "app.js",
   "scripts": {
