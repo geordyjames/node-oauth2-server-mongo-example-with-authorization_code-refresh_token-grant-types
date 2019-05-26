@@ -1,0 +1,29 @@
+{
+  "name": "node-oauth2-server-mongo-example-with-authorization_code-refresh_token-grant-types",
+  "version": "1.0.0",
+  "description": "Working oauth2 server with MongoDB with authorization_code and refresh_token grant types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedroetb/node-oauth2-server-mongo-example"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Geordy James",
+  "contributors": [
+    {
+      "name": "Geordy James",
+      "email": "geordy06@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "oauth2-server": "^3.0.1"
+  }
+}
