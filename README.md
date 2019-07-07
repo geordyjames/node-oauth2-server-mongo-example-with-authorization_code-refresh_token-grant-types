@@ -75,8 +75,8 @@ You need to include the client credentials in request headers and the grant type
 For example, using `curl`:
 ```
 curl http://localhost:3000/oauth/token \
-	-d "grant_type=client_credentials" \
-	-d "code=YOUR_REFRESH_TOKEN" \
+	-d "grant_type=authorization_code" \
+	-d "code=YOUR_AUTH_TOKEN" \
 	-d "redirect_uri=http://localhost:3000/callback" \
 	-H "Authorization: Basic Y29uZmlkZW50aWFsQXBwbGljYXRpb246dG9wU2VjcmV0" \
 	-H "Content-Type: application/x-www-form-urlencoded"
@@ -190,7 +190,7 @@ You need to include the client credentials in request headers and the grant type
 For example, using `curl`:
 ```
 curl http://localhost:3000/oauth/token \
-	-d "grant_type=client_credentials" \
+	-d "grant_type=refresh_token" \
 	-d "refresh_token=YOUR_REFRESH_TOKEN" \
 	-H "Authorization: Basic Y29uZmlkZW50aWFsQXBwbGljYXRpb246dG9wU2VjcmV0" \
 	-H "Content-Type: application/x-www-form-urlencoded"
